@@ -8,7 +8,7 @@ body {
 }
 
 .images {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   width: 40%;
@@ -66,6 +66,8 @@ body {
 
 .other {
   width: 100%;
+  padding: calc(100vh / 3) max(calc(100vh / 3), 30px);
+  box-sizing: border-box;
   background-color: #C4DCD3;
 
   p {
